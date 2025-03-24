@@ -7,10 +7,12 @@
     margin-left: 30px;
     /* gap: 50px; */
 }
+
 body::selection {
     background-color: red;
 
 }
+
 .hari {
     color: white;
     font-size: x-large;
@@ -21,22 +23,26 @@ body::selection {
     margin: 0%;
     padding: 0%;
 }
+
 .carousel-inner {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
+
 .d-block {
     height: 450px;
     width: 450px;
     margin-left: 850px;
     margin-top: 20px;
 }
+
 section {
     color: white;
     position: absolute;
     margin-left: 200px;
     margin-top: 50px;
 }
+
 .note {
     background-color: red;
     position: absolute;
@@ -51,46 +57,56 @@ section {
     margin-left: 13px;
     top: -12px;
 }
+
 .heading {
     text-align: center;
     color: white;
     padding: 40px;
 }
+
 .card-text {
     font-size: x-large;
     margin-left: 30px;
 }
+
 .del {
     color: black;
     gap: 20px;
 }
+
 .bi-search {
     fill: white;
 
 }
+
 .bi-cart3 {
     fill: white;
     font-size: medium;
 }
+
 .bi-person {
     fill: white;
 }
+
 .shop-now {
     color: white;
     background-color: red;
     width: 100px;
     height: 40px;
 }
+
 .carousel-item {
     padding: 0px;
     margin-left: 60px;
     font-size: large;
 }
+
 .all-products a {
     text-decoration: none;
     color: white;
     gap: 30px;
 }
+
 .all-products :hover {
     background-color: red;
 }
@@ -237,27 +253,22 @@ section {
     left: -40px;
     font-size: 18px;
 }
-
 .search-icon:hover .search {
     display: block;
 
 }
-
 .photos:hover .dialog-box {
     display: block;
     /* margin-right: 150px; */
 }
-
 .amount {
     color: rgb(50, 201, 50);
     font-size: large;
 }
-
 .order {
     position: relative;
     top: -20px;
 }
-
 .corona {
     position: relative;
     top: 100px;
