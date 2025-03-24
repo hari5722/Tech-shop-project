@@ -1,43 +1,43 @@
-.navbar{
+.navbar {
     background-color: black;
-    display: flex;   
+    display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 20px 20px;
     margin-left: 30px;
     /* gap: 50px; */
-  }
-  body::selection{ 
-     background-color: red;
-    
-  }
-.hari{
+}
+body::selection {
+    background-color: red;
+
+}
+.hari {
     color: white;
     font-size: x-large;
     gap: 50px;
 }
 
-*{
+* {
     margin: 0%;
     padding: 0%;
 }
-.carousel-inner{
+.carousel-inner {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
 }
-.d-block{
+.d-block {
     height: 450px;
     width: 450px;
     margin-left: 850px;
     margin-top: 20px;
 }
-section{
+section {
     color: white;
     position: absolute;
     margin-left: 200px;
     margin-top: 50px;
 }
-.note{
+.note {
     background-color: red;
     position: absolute;
     width: 20px;
@@ -46,132 +46,150 @@ section{
     border: 1px solid none;
     color: white;
     display: flex;
-    align-items:center;
+    align-items: center;
     justify-content: center;
     margin-left: 13px;
     top: -12px;
 }
-.heading{
+.heading {
     text-align: center;
     color: white;
     padding: 40px;
 }
-.card-text{
+.card-text {
     font-size: x-large;
     margin-left: 30px;
 }
-.del{
+.del {
     color: black;
     gap: 20px;
 }
-.bi-search{
+.bi-search {
     fill: white;
-    
+
 }
-.bi-cart3{
-    fill:white;
+.bi-cart3 {
+    fill: white;
     font-size: medium;
 }
-.bi-person{
+.bi-person {
     fill: white;
 }
-.shop-now{
+.shop-now {
     color: white;
     background-color: red;
     width: 100px;
     height: 40px;
 }
-.carousel-item{
+.carousel-item {
     padding: 0px;
     margin-left: 60px;
     font-size: large;
 }
-.all-products a{
+.all-products a {
     text-decoration: none;
     color: white;
     gap: 30px;
-
 }
-.all-products :hover{
+.all-products :hover {
     background-color: red;
 }
-.cards{
+
+.cards {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* 4 columns */
-    grid-gap: 15px; /* Spacing between cards */
+    grid-template-columns: repeat(4, 1fr);
+    /* 4 columns */
+    grid-gap: 15px;
+    /* Spacing between cards */
     padding: 30px;
     margin: 20px;
     margin-left: 60;
     gap: 20px;
     /* height: 400px; */
 }
-.fa-solid{
+
+.fa-solid {
     color: red;
     height: 30px;
     width: 30px;
     /* margin-left: 30px; */
 }
-.carousel-indicators button{
+
+.carousel-indicators button {
     width: 10px !important;
     height: 10px !important;
 }
-.icons{
+
+.icons {
     text-align: center;
     color: white;
 }
-.images{
+
+.images {
     position: absolute;
     margin: 100px;
     padding: 50px;
 }
-.sgs{
+
+.sgs {
     position: absolute;
     margin-left: 73px;
     margin-top: -20px;
 }
-.sv{
+
+.sv {
     margin-left: 50px;
     gap: 100px;
 }
-.para{
+
+.para {
     margin-top: 35px;
     margin-left: -80px;
     font-size: smaller;
 }
-.ait{
+
+.ait {
     margin-left: 25px;
     margin-top: -15px;
 }
- .tech:hover {
-     background-color:red;
-     width: 120px;
- }
-.subscribe{
+
+.tech:hover {
+    background-color: red;
+    width: 120px;
+}
+
+.subscribe {
     color: white;
     background-color: red;
     margin-top: 10px;
 }
-.card-img-top{
+
+.card-img-top {
     margin-left: -30px;
 }
-.card-title{
+
+.card-title {
     margin-left: 45px;
 }
- .fsb{
-    display:grid;
-    grid-template-columns: repeat(2,1fr); 
-    padding:10px;
- }
- .mouni{
+
+.fsb {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 10px;
+}
+
+.mouni {
     margin-left: 1200px;
     gap: 60px;
- }
- .photos {
+}
+
+.photos {
     position: relative;
     display: inline-block;
     cursor: pointer;
     /* margin-right:8x; */
 }
+
 .dialog-box {
     display: none;
     position: absolute;
@@ -186,14 +204,17 @@ section{
     box-shadow: 0 0 10px rgba(59, 54, 54, 0.2);
     white-space: nowrap;
 }
-.search-icon{
+
+.search-icon {
     position: relative;
 
 }
-.cart-icon{
+
+.cart-icon {
     position: relative;
 }
-.cart{
+
+.cart {
     position: absolute;
     display: none;
     color: white;
@@ -202,10 +223,12 @@ section{
     left: -20px;
     font-size: 19px;
 }
-.cart-icon:hover .cart{
+
+.cart-icon:hover .cart {
     display: block;
 }
-.search{
+
+.search {
     position: absolute;
     display: none;
     color: white;
@@ -214,23 +237,28 @@ section{
     left: -40px;
     font-size: 18px;
 }
-.search-icon:hover .search{
+
+.search-icon:hover .search {
     display: block;
 
 }
+
 .photos:hover .dialog-box {
     display: block;
     /* margin-right: 150px; */
 }
-.amount{
+
+.amount {
     color: rgb(50, 201, 50);
     font-size: large;
 }
-.order{
+
+.order {
     position: relative;
     top: -20px;
 }
-.corona{
+
+.corona {
     position: relative;
     top: 100px;
     left: 60px;
@@ -238,57 +266,69 @@ section{
     width: 300px;
     height: 300px;
 }
-.bi-trash3{
+
+.bi-trash3 {
     position: absolute;
     top: 1px;
     left: 500px;
 }
-.jbl{
+
+.jbl {
     border: 1px solid rgb(170, 160, 160);
     height: 110px;
     width: 150px;
     margin-top: 70px;
 }
-.page{
+
+.page {
     margin-top: -140px;
     margin-left: 200px;
 }
-.stars{
+
+.stars {
     color: white;
 }
-.rating{
+
+.rating {
     margin-top: 143px;
     margin-left: 175px;
     color: white;
 }
+
 .headphones {
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
     align-items: center;
-  }
-  .page{
+}
+
+.page {
     position: absolute;
     top: 190px;
-  }
-  
-  .email {
+}
+
+.email {
     display: flex;
-    gap: 10px; 
-  }  
-  .rating {
+    gap: 10px;
+}
+
+.rating {
     margin-left: 10px;
-  }
-.form{
+}
+
+.form {
     margin-top: 30px;
 }
-.overview{
+
+.overview {
     color: white;
 }
-.brands :hover{
+
+.brands :hover {
     background-color: red;
     font-size: large;
 }
-.name{
+
+.name {
     color: white;
     height: 60px;
     justify-content: space-between;
