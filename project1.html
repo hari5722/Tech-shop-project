@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,69 +13,68 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body style="background-color: black;">
-  <div style="color: white;position: relative;top: 0;left: 45%;" popover=manual>
-    <form  style="padding: 20PX; padding-top: -90PX; border: 1px solid rgb(150, 143, 143); background-color: black; height: 550px; width: 390px;">
-      <div popovertarget="my-popover" class="triger-btn" popovertargetaction="hide" id="float-end" style="color: red;">X</div>
-      <div class="mb-3 form" style=" color: white;">
-        <h4>Signup</h4>
-        <label for="exampleInputEmail1" class="form-label">Already have an account? Login</label>
-        <input type="email" placeholder="Username"
-          style="width: 330px; height: 40px; background-color: black; color: aliceblue; border: 1px solid white; border-radius: 5px;">
-      </div>
-      <div class="mb-3">
-        <input type="email" placeholder="Email"
-          style="width: 330px; height: 40px; background-color: black; color: aliceblue; border: 1px solid white; border-radius: 5px;">
-      </div>
-      <div class="mb-3">
-        <input type="email" placeholder="Password"
-          style="width: 330px; height: 40px; background-color: black; color: aliceblue; border: 1px solid white; border-radius: 5px;">
-      </div>
-      <div class="mb-3">
-        <input type="password" placeholder="Confirm Password"
-          style="width: 330px; height: 40px; background-color: black; color: aliceblue; border: 1px solid white; border-radius: 5px;">
-      </div>
-      <button type="submit" class="btn btn-danger" style="width: 330px;">Signup</button>
-      <br><br>
-      <div style="display: flex; align-items: center; margin-bottom: 10px;">
-        <div style="border-top: 1px solid #ccc; width: 100px;"></div>
-        <span style="margin: 0 10px;">or login with</span>
-        <div style="border-top: 1px solid #ccc; width: 100px;"></div>
-      </div>
-      <p></p>
-      <div>
-        <button type="button" class="btn btn-primary" style="width: 110px;">Facebook</button>
-        <button type="button" class="btn btn-danger" style="width: 110px;">Google</button>
-        <button type="button" class="btn btn-info" style="width: 110px;">Twitter</button>
-      </div>
-    </form>
-  </div>
+  <form popover=manual id="my-popover"
+    style="border: 2px solid black; background-color: black; color: white; width: 22rem; padding-left: 35px; position: relative;top: 13%;left: 35%;">
+    <button class="delete-symbol" popovertarget="my-popover" popovertargetaction="hide"
+      style="margin-left: 280px; background-color: black; color: white;">x</button>
+    <h2>Signup</h2>
+    <p>Already have an accout? Login</p>
+    <input type="Username" placeholder="Username"
+      style="width:300px; background-color: black;color: white; border: 1px solid gray; margin-bottom: 1rem; padding: 5px 0;">
+    <br>
+    <input type="Email" placeholder="Email"
+      style="width: 300px; background-color: black;color: white; border: 1px solid gray; margin-bottom: 1rem; padding: 5px 0;">
+    <br>
+    <input type="password" placeholder="Password"
+      style="width: 300px; background-color: black;color: white; border: 1px solid gray; margin-bottom: 1rem; padding: 5px 0;">
+    <br>
+    <input type="password" placeholder="Confirm Password"
+      style="width: 300px; background-color: black;color: white; border: 1px solid gray; margin-bottom: 1rem; padding: 5px 0;">
+    <br>
+    <input type="button" value="Signup"
+      style="width: 308px; background-color: red;  color: white; border: 1px solid grey; margin-bottom:1rem; padding:5px 0 ;">
+    <br>
+    <div style="display: flex; align-items: center; margin-bottom: 10px;">
+      <div style="border-top: 1px solid #ccc; width: 100px;"></div>
+      <span style="margin: 0 10px;">or login with</span>
+      <div style="border-top: 1px solid #ccc; width: 100px;"></div>
+    </div>
+    <div style="width: 300px; margin-bottom: 40px;">
+      <input type="button" value="Facebook"
+        style="padding: 0 10px;background-color: rgb(95, 95, 240);height: 35px; color: white;">
+      <input type="button" value="Google"
+        style="margin-left: 10px;padding: 0 15px; background-color: rgb(222, 21, 21);height: 35px; color: white;">
+      <input type="button" value="Twitter"
+        style="margin-left: 10px; padding: 0 15px; background-color:rgb(31, 150, 224); height: 35px; color: white;">
+    </div>
+  </form>
   <nav class=" fixed-top container-fluid navbar">
     <h1 class="hari">Tech-Shop</h1>
     <div class="photos" style="margin-right: -1200px;">
-    <div class="search-icon">
-       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-search" viewBox="0 0 16 16"
-        style="margin-right:-600px;">
-        <path
-          d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
-      </svg>
-      <div class="search">
-      <p>search</p>
+      <div class="search-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-search" viewBox="0 0 16 16"
+          style="margin-right:-600px;">
+          <path
+            d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+        </svg>
+        <div class="search">
+          <p>search</p>
+        </div>
       </div>
     </div>
-    </div>
-      <div class="photos" style="margin-right: -1200px; ">
+    <div class="photos" style="margin-right: -1200px; ">
       <span class="note">4</span>
       <div class="cart-icon">
-      <a href="../PROJECT/cart.html">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-cart3" viewBox="0 0 16 16">
-          <path
-            d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l.84 4.479 9.144-.459L13.89 4zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2" />
-        </svg>
-      </a>
-      <div class="cart">
-        <p>cart</p>
+        <a href="./cart.html">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-cart3" viewBox="0 0 16 16">
+            <path
+              d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l.84 4.479 9.144-.459L13.89 4zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2" />
+          </svg>
+        </a>
+        <div class="cart">
+          <p>cart</p>
+        </div>
       </div>
-    </div>
     </div>
     <div class="photos" style="margin-right: 30px;">
       <svg xmlns="http://www.w3.org/2000/svg" width="20" height="24" class="bi bi-person" viewBox="0 0 16 16">
@@ -84,7 +84,7 @@
       <div class="dialog-box" style="padding: 20px;">
         <h5>Hello!</h5>
         <p>Access account and manager orders</p>
-        <a href="./signup.html"><button style="background-color: black; font-size: medium; color: white; border-radius: 2x;"
+        <button style="background-color: black; font-size: medium; color: white; border-radius: 2x;"
           popovertarget="my-popover">
           Login/Signup</button></a>
         <hr>
@@ -93,7 +93,7 @@
     </div>
   </nav>
   <br><br><br><br><br>
-    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+  <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
         <section>
@@ -105,7 +105,7 @@
           <br>
           <input type="button" value="Shop Now" class="shop-now">
         </section>
-        <img src="./PHOTOS/sonyXb910n-1.png" class="d-block w-30 h-30" alt="...">
+        <img src="./PHOTOS/boat131-3.png" class="d-block w-30 h-30" alt="...">
       </div>
       <div class="carousel-item">
         <section>
@@ -129,7 +129,7 @@
           <br>
           <input type="button" value="Shop Now" class="shop-now">
         </section>
-        <img src="./PHOTOS/boat131-3.png" class="d-block w-10" alt="...">
+        <img src="./PHOTOS/sonyXb910n-1 (1).png" class="d-block w-10" alt="...">
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
@@ -294,6 +294,9 @@
         <input type="button" value="Add to cart"
           style="color: white; background-color: red; height: 50px; width: 300px; border-radius: 10px;">
       </div>
+
+
+
     </div>
     <div style="border: 1px solid rgb(149, 137, 137); width: 330px; height: 580px; margin-left: 30px;">
       <div class="card-body bg-dark">
@@ -342,7 +345,7 @@
     </div>
     <div style="border: 1px solid rgb(67, 65, 65); width: 330px; height: 580px; margin-left: 30px;">
       <div class="card-body bg-dark">
-        <img src="./PHOTOS/sonyXb910n-1 (1).png" height="200px" style="margin-left: 70px;margin-top: 30px;">
+        <img src="./PHOTOS/sonyXb910n-1.png" height="200px" style="margin-left: 70px;margin-top: 30px;">
       </div>
       <div style="margin-left: 20px;">
         <i class="fa-solid fa-star"></i>
@@ -365,7 +368,7 @@
     </div>
     <div style="border: 1px solid rgb(59, 58, 58); width: 330px; height: 580px; margin-left: 20px;">
       <div class="card-body bg-dark">
-        <img src="./PHOTOS/jbl760nc-1 (1).png" height="200px" style="margin-left: 70px;margin-top: 30px;">
+        <img src="./PHOTOS/jbl760nc-1.png" height="200px" style="margin-left: 70px;margin-top: 30px;">
       </div>
       <div style="margin-left: 20px;">
         <i class="fa-solid fa-star"></i>
@@ -385,9 +388,6 @@
         <input type="button" value="Add to cart"
           style="color: white; background-color: red; height: 50px; width: 300px; border-radius: 10px;">
       </div>
-
-
-
     </div>
     <div style="border: 1px solid rgb(60, 55, 55); width: 330px; height: 580px; margin-left: 30px;">
       <div class="card-body bg-dark">
@@ -410,6 +410,9 @@
         <input type="button" value="Add to cart"
           style="color: white; background-color: red; height: 50px; width: 300px; border-radius: 10px;">
       </div>
+
+
+
     </div>
     <div style="border: 1px solid rgb(59, 55, 55); width: 330px; height: 580px; margin-left: 30px;">
       <div class="card-body bg-dark">
@@ -455,6 +458,9 @@
         <input type="button" value="Add to cart"
           style="color: white; background-color: red; height: 50px; width: 300px; border-radius: 10px;">
       </div>
+
+
+
     </div>
     <div style="border: 1px solid rgb(72, 67, 67); width: 330px; height: 580px; margin-left: 20px;">
       <h1 style="color: white; text-align: center; margin-top: 230px;">Browse All Products → </h1>
@@ -473,22 +479,22 @@
     <div style="display: flex;">
       <i class="fa-solid fa-shield-halved fa-2x" style="margin-top: 20px;"></i>
       <div style="margin-left: 30px; color: white;">
-        <h3>Express Delivery</h3>
-        <p style="color: grey;">Ships in 24 hours</p>
+        <h3>Brand warranty</h3>
+        <p style="color: grey;">100% Original Products</p>
       </div>
     </div>
     <div style="display: flex;">
       <i class="fa-solid fa-tags fa-2x" style="margin-top: 20px;"></i>
       <div style="margin-left: 30px; color: white;">
-        <h3>Express Delivery</h3>
-        <p style="color: grey;">Ships in 24 hours</p>
+        <h3>Exiciting Deals</h3>
+        <p style="color: grey;">on all prepaid orders</p>
       </div>
     </div>
     <div style="display: flex;">
       <i class="fa-solid fa-credit-card fa-2x" style="margin-top: 20px;"></i>
       <div style="margin-left: 30px; color: white;">
-        <h3>Express Delivery</h3>
-        <p style="color: grey;">Ships in 24 hours</p>
+        <h3>Secure Payments</h3>
+        <p style="color: grey;">SSL/Secure certificate</p>
       </div>
     </div>
   </div>

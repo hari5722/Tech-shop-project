@@ -5,6 +5,7 @@
     justify-content: space-between;
     padding: 20px 20px;
     margin-left: 30px;
+    /* gap: 50px; */
   }
   body::selection{ 
      background-color: red;
@@ -243,19 +244,11 @@ section{
     left: 500px;
 }
 .jbl{
-    border: 1px solid rgb(97, 93, 93);
-    height: 110px;
-    width: 150px;
-    margin-top: 50px;
-}
-.jbl1{
-    border:1px solid white;
+    border: 1px solid rgb(170, 160, 160);
     height: 110px;
     width: 150px;
     margin-top: 70px;
- 
-}   
-
+}
 .page{
     margin-top: -140px;
     margin-left: 200px;
